@@ -654,4 +654,9 @@ body {
         font-size: 42px;
     }
 
+    .result-box .buttons {
+        display: flex;
+        width: 20rem;
+    }
+
 }
