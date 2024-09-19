@@ -107,32 +107,21 @@ body {
     overflow-wrap: break-word;
     word-break: break-all;
     white-space: pre-line;
-    animation: colorChange 3s infinite, typing 4s steps(22) 1s forwards;
+    animation: colorChange 7s infinite, typing 4s steps(22) 1s forwards;
 }
 
 @keyframes colorChange {
     0% {
-        color: rgb(251, 255, 0);
-    }
-
-    20% {
         color: rgb(255, 255, 255);
     }
 
-    40% {
+
+    50% {
         color: rgb(0, 255, 255);
     }
 
-    60% {
-        color: rgb(255, 255, 255);
-    }
-
-    80% {
-        color: rgb(14, 255, 142);
-    }
-
     100% {
-        color: rgb(255, 255, 255);
+        color: rgb(251, 255, 0);
     }
 
 
