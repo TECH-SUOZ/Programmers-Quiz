@@ -163,3 +163,16 @@ function showResultBox() {
         }
     }, speed);
 }
+
+const text = document.getElementById('animated-text');
+const textContent = text.textContent;
+text.textContent = '';
+let i = 0;
+function type() {
+    if (i < textContent.length) {
+        text.textContent += textContent.charAt(i);
+        i++;
+        setTimeout(type, 100);
+    }
+}
+type();
